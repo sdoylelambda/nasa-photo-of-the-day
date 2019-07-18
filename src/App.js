@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Nasa from './components/api/Nasa'
+import Nasa from './components/Nasa/Nasa'
 import Api from './components/api/Api'
 
 function App() {
