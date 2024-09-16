@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
+import Nasa from './components/Nasa/Nasa'
+import Api from './components/api/Api'
 
 function App() {
   return (
     <div className="App">
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+        <Nasa limit={10} />
+        <Api limit={10}/>
       </p>
     </div>
   );
